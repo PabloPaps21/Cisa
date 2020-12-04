@@ -1,0 +1,25 @@
+.contenedorInges{
+  margin-top: 150px;
+}
+.postulantes {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+.postulantes td, .postulantes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.postulantes tr:nth-child(even){background-color: #f2f2f2;}
+
+.postulantes tr:hover {background-color: #ddd;}
+
+.postulantes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

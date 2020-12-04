@@ -1,0 +1,635 @@
+a {
+  text-decoration: none;
+}
+a:visited {
+ color: inherit;
+}
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.mainContainerM {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+.mainBackground {
+  margin-top: 50px;
+  min-height: 800px;
+  background: url(https://res.cloudinary.com/du9zaipqt/image/upload/v1606545793/cisa/01_hfdptk.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.mainContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.estudia { 
+  width: 40%;
+  height: 599px;
+  padding: 10px 20px 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.titulo {
+  font-size: 1.9rem;
+  font-weight: 300;
+  color: #FFF;
+  text-align: left;
+}
+.titulo-form {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0DB14B;
+  font-weight: bold;
+}
+.modalidad {
+  font-size: 1.4rem;
+  color: #0DB14B;
+  text-align: left;
+  font-weight: 300;
+}
+.renglon {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  color: #FFF;
+  font-weight: 300;
+}
+.imgWtext {
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+  font-size: 1.4rem;
+}
+.imgWtext > img {
+  max-width: 160px;
+  margin-left: 15px;
+  height: 35px;
+}
+.arrowUp {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #FFF;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.informacion {
+  background-color: #FFF;
+  width:30%;
+  height: 599px;
+  padding-top: 20px;
+  border-radius: 9px;
+  box-shadow: 2px 6px 5px 1px rgba(112,112,112,0.85);
+}
+.informacion > p {
+  font-weight: 300;
+  text-align: center;
+}
+.postula {
+   background: #0DB14B;
+   font-size: 1.2rem;
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+   width: 55%;
+   height: 60px;
+   font-weight: 300;
+}
+/***BLOQUES***/
+.mainContenedorHab {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+}
+.contenedorHab {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.bloque {
+	color: #FFF;
+	background: linear-gradient(107deg, rgba(0, 169, 157, 1) 0%, rgba(147, 39, 143, 1) 100%);
+	margin: 10px 20px;
+	width: 15%;
+	border-radius: 9px;
+	height: 88px;
+	display: flex;
+	align-items: center;
+	padding: 3px 6px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.contenedorProf {
+	background-color: #343a40;
+	color: #FFF;
+	height: 117px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  width: 100%;
+  font-weight: 300;
+}
+/***CARRERAS***/
+.mainContenedorCar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top:20px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.mainContenedorCar > h2 {
+  margin: 15px 0;
+  color:#0DB14B;
+  font-weight: 300;
+}
+.contenedorCar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width:90%;
+}
+.cardCar {
+  width: 25%;
+  margin: 10px 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.imgCardCar {
+  width: 50%;
+  margin-bottom: 10px;
+  transition: transform 1s, filter 2s ease-in-out;
+  transform: scale(1.2);
+}
+.imgCardCar:hover {
+  transform: scale(1);
+}
+.cardCar > p {
+  font-size: 16px;
+  display: flex;
+  align-items: baseline;
+  padding: 0 8px;
+}
+/***PLANES***/
+.mainContenedorPlan {
+  background-color: #FCFCFC;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.mainContenedorPlan > h3 {
+  font-size: 22px;
+  margin: 40px 0 30px 0;
+  font-weight: 300;
+}
+.cardContenedor {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardPlan {
+  width: 17%;
+  border-radius: 6px;
+  background: #f0f0f0;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  min-height: 295px;
+  text-align: center;
+}
+.cardPlan > img {
+  margin-top: 40px;
+}
+.cardPlanTexto {
+  margin: 20px 0;
+  font-weight: 300;
+}
+.strongP {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+/***INFO**/
+.mainContenedorInfo {
+  background-color:  #0DB14B;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.masInfoButton {
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #0aa143;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+  max-width: 350px;
+  color: #0DB14B;
+  font-weight: bold;
+  font-size: 1.4rem;
+  height: 67px;
+  width: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .estudia {
+    width: 90%;
+    text-align: left;
+  }
+  .postula {
+    width: 100%;
+  }
+  .informacion {
+    width: 90%;
+    margin-top: 20px;
+    height: 581px;
+  }
+  .terminos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .modalidad {
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .imgWtext {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .imgWtext > img {
+    max-width: 130px;
+    margin-left: 10px;
+    height: 35px;
+  }
+  /***Bloques***/
+  .mainContenedorHab {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .contenedorHab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+  }
+  .bloque {
+		width: 80%;
+		font-size: 16px;
+    padding: 3px 5px;
+	}
+	.contenedorProf > h2 {
+    font-size: 18px;
+  }
+  .mainContenedorCar > h2 {
+    font-size: 1.2rem;
+  }
+  .contenedorCar{
+    width: 100%;
+  }
+  .cardCar {
+    width: 36%;
+    margin: 10px 20px;
+  }
+  .imgCardCar {
+    width: 50%;
+  }
+  .cardCar > p {
+    font-size: 13px;
+    padding: 0 8px;
+    line-height: 1.3rem;
+  }
+  .mainContenedorPlan {
+    background-color: #FCFCFC;
+    width: 100%;
+  }
+  .mainContenedorPlan > h3 {
+    font-size: 18px;
+    margin: 40px 0 30px 0;
+  }
+  .cardContenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .cardPlan {
+    width: 40%;
+    margin: 10px 0;
+  }
+  .cardPlan > img {
+    margin-top: 40px;
+  }
+  .strongP {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .cardPlan > p {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width:600px){
+  .estudia {
+    width: 90%;
+    text-align: left;
+  }
+  .informacion {
+    width:90%;
+    height: 599px;
+    margin-top: 20px;
+  }
+  .imgWtext {
+    font-size: 1rem;
+  }
+  .imgWtext > img {
+    max-width: 130px;
+    margin-left: 15px;
+    height: 35px;
+  }
+  .contenedorHab { 
+    width: 100%;
+  }
+  .bloque {
+		width: 40%;
+		font-size: 16px;
+    padding: 3px 5px;
+  }
+  .contenedorProf > h2 {
+		font-size: 1.3rem;
+  }
+  .mainContenedorCar > h2 {
+    font-size: 1.4rem;
+  }
+  .contenedorCar{
+    width: 100%;
+  }
+  .cardCar {
+    width: 30%;
+  }
+  .imgCardCar {
+    width: 50%;
+    padding-top: 10px;
+  }
+  .cardCar > p {
+    font-size: 16px;
+    padding: 0 8px;
+    line-height: 1.5rem;
+  }
+  .cardContenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .cardPlan {
+    width: 30%;
+    margin: 10px 0;
+  }
+  .cardPlan > img {
+    margin-top: 40px;
+  }
+  .strongP {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .cardPlan > p {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .mainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .estudia {
+    width: 48%;
+    text-align: left;
+  }
+  .informacion {
+    width:48%;
+    height: 599px;
+    margin-top: 0;
+  }
+  .imgWtext {
+    font-size: 1.1rem;
+  }
+  .bloque {
+		width: 18%;
+		font-size: 16px;
+    padding: 3px 5px;
+  }
+  .contenedorHab { 
+    width: 100%;
+  }
+  .bloque {
+		width: 20%;
+		font-size: 16px;
+    padding: 10px 5px;
+  }
+  .contenedorProf > h2 {
+		font-size: 1.4rem;
+  }
+  .mainContenedorCar > h2 {
+    font-size: 1.6rem;
+  }
+  .contenedorCar{
+    width: 90%;
+  }
+  .cardCar{
+    width: 25%;
+  }
+  .imgCardCar {
+    width: 50%;
+    padding-top: 10px;
+  }
+  .cardCar > p {
+    font-size: 19px;
+    padding: 0 8px;
+    line-height: 1.5rem;
+  }
+
+  .cardContenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .cardPlan {
+    width: 26%;
+    margin: 10px 0;
+  }
+  .cardPlan > img {
+    margin-top: 40px;
+  }
+  .strongP {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .cardPlan > p {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 992px){
+  .estudia {
+    width: 40%;
+    text-align: left;
+  }
+  .informacion {
+    width:35%;
+    height: 599px;
+  }
+  .contenedorHab { 
+    width: 100%;
+  }
+  .bloque {
+		width: 20%;
+		font-size: 16px;
+    padding: 3px 5px;
+  }
+  .contenedorProf > h2 {
+		font-size: 1.5rem;
+  }
+  .contenedorCar{
+    width: 75%;
+  }
+  .cardCar{
+    width: 25%;
+
+  }
+  .imgCardCar {
+    width: 50%;
+    padding-top: 10px;
+  }
+  .cardCar > p {
+    font-size: 17px;
+    padding: 0 8px;
+    line-height: 1.5rem;
+  }
+  .cardPlan {
+    width: 20%;
+    margin: 10px 0;
+  }
+  .cardPlan > img {
+    margin-top: 40px;
+  }
+  .strongP {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .cardPlan > p {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width:1200px){
+  .mainContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .estudia {
+    width: 40%;
+    text-align: left;
+  }
+  .informacion {
+    width:30%;
+    height: 599px;
+  }
+  .imgWtext > p {
+    font-size: 16px;
+  }
+  .contenedorHab { 
+    width: 100%;
+  }
+  .bloque {
+		width: 13%;
+		font-size: 16px;
+    padding: 3px 5px;
+  }
+  .contenedorProf > h2 {
+		font-size: 1.6rem;
+  }
+  .mainContenedorCar > h2 {
+    font-size: 2rem;
+  }
+  .contenedorCar{
+    width: 70%;
+  }
+  .cardCar{
+    width: 25%;
+  }
+  .imgCardCar {
+    width: 45%;
+    padding-top: 10px;
+  }
+  .cardCar > p {
+    font-size: 16px;
+    padding: 0 15px;
+    line-height: 1.5rem;
+  }
+  .mainContenedorPlan {
+    width: 100%;
+  }
+  .cardPlan {
+    width: 15%;
+    margin: 10px 0;
+  }
+  .cardPlan > img {
+    margin-top: 40px;
+  }
+  .strongP {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .cardPlan > p {
+    margin: 20px 0;
+    padding: 0 15px;
+  }
+}

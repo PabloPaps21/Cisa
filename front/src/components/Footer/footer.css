@@ -1,0 +1,25 @@
+.footerContainerM {
+    background-color: #414042;
+    color: #FFF;
+    height: 247px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .footerContenedor {
+    width: 30%;
+  }
+  .footerContenedor > img , p {
+    margin: 15px 0;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .footerContenedor {
+      width: 80%;
+    }
+  }
