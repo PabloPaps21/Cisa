@@ -17,7 +17,7 @@ Cualquier duda contactar por correo electrónico: paps21.gol@gmail.com
     - Una vez instaladas escribir ~ npm run dev ~  para iniciar el back
     -no detener el proceso
     -para terminar con el proceso **ctrl + c**
-    -Es necesario crear un archivo .env con la variable BD
+    -es necesario crear un archivo .env con la variable BD
     
 3. Ir a la carpeta **front**
    - Instalar dependencias  ~ npm install ~ 
